@@ -8,7 +8,6 @@ echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
   nheko \
-  qt6-jdenticon \
   kimageformats \
   gst-libav \
   gst-plugin-qml6 \
@@ -22,4 +21,6 @@ pacman -Syu --noconfirm \
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
 get-debloated-pkgs --add-common --prefer-nano
+
+make-aur-package qt6-jdenticon
 
