@@ -13,7 +13,6 @@ pacman -Syu --noconfirm \
   gst-plugin-qml6 \
   gst-plugins-bad \
   gst-plugins-good \
-  breeze \
   qt6ct \
   kvantum \
   lxqt-qtplugin
