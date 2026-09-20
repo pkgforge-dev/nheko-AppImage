@@ -13,6 +13,7 @@ pacman -Syu --noconfirm \
   gst-plugin-qml6 \
   gst-plugins-bad \
   gst-plugins-good \
+  gst-plugin-pipewire \
   qt6ct \
   kvantum \
   lxqt-qtplugin
@@ -22,4 +23,3 @@ echo "---------------------------------------------------------------"
 get-debloated-pkgs --add-common --prefer-nano
 
 make-aur-package qt6-jdenticon
-
